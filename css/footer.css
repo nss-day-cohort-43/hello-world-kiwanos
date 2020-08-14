@@ -2,6 +2,10 @@ footer {
     color: white;
     font-family: 'Raleway', sans-serif;
     background-color: #69e5ae;
+    background-image: url("../imgs/kiwanosTravel-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -12,25 +16,28 @@ footer {
     margin-left: 25px;
 }
 
-.footer-logo img {
-    height: 40px;
-    width: auto;
-}
-
 .footer-social {
     margin-right: 25px;
 }
 
 .footer-social ul {
     list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .footer-social ul li {
     float: left;
     padding: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .footer-social img {
     height: 25px;
     width: auto;
+    vertical-align: middle;
 }
