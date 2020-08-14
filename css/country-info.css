@@ -15,4 +15,18 @@
 .cis-item{
     justify-self: flex-start;
     border: dotted 1px red;
+    display: flex;
+}
+
+.item-img-container {
+    width: 50%;
+}
+
+.item-img{
+    width: 100%;
+    height: auto;
+}
+
+.item-name{
+    width: 50%;
 }
