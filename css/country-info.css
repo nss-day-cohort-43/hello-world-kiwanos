@@ -1,26 +1,10 @@
 #country-info {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: column;
     background-color: rgb(114, 171, 224);
 }
 
-.info-card {
-    border: dotted 1px red;
-    border-radius: 2em;
-    flex-basis: 30%;
-    text-align: center;
-    margin: 1em;
-    min-width: 200px;
-    background-color: #69e5ae;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
 
-.info-list{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    list-style-type: none;
-    padding-left: 0em;
+.country-info-section {
+    border: dashed 1px red;
 }
