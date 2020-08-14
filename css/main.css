@@ -1,5 +1,9 @@
 @import "header.css";
 
+@import "footer.css";
+
+@import 'country-info.css';
+
 main {
 	background-image: url('../imgs/yosemite-wideshot-background-image.jpg');
 	background-size: cover;
@@ -15,6 +19,3 @@ main {
 	display: flex;
 	flex-direction: row;
 }
-@import 'country-info.css';
-
-@import "footer.css";
