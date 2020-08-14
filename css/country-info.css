@@ -5,6 +5,10 @@
     background-color: rgb(114, 171, 224);
 }
 
+#country-info h3 {
+    letter-spacing: .1em;
+}
+
 .info-card {
     border: dotted 1px red;
     border-radius: 2em;
