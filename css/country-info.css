@@ -23,12 +23,14 @@
 
 .item-img-container {
     width: 50%;
+    display: flex;
     
 }
 
 .item-img{
     width: 100%;
     height: auto;
+    align-self: center;
 }
 
 .item-name{
