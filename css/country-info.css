@@ -1,7 +1,7 @@
 #country-info {
     display: flex;
     flex-flow: column;
-    background-color: rgb(114, 171, 224);
+    /*background-color: rgb(114, 171, 224);*/
 }
 
 
@@ -13,13 +13,17 @@
 }
 
 .cis-item{
-    justify-self: flex-start;
     border: dotted 1px red;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: xx-large;
+    margin: 1em 0em;
 }
 
 .item-img-container {
     width: 50%;
+    
 }
 
 .item-img{
@@ -29,4 +33,7 @@
 
 .item-name{
     width: 50%;
+    height: 100%;
+    text-align: center;
+    font-size: xx-large;
 }
