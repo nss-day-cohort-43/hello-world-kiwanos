@@ -1,3 +1,7 @@
+a {
+	color: #b22234;
+}
+
 #country-info {
 	display: flex;
 	flex-flow: column;
