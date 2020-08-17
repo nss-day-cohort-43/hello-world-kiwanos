@@ -1,0 +1,43 @@
+footer {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	background-color: #3c3b6e;
+	background-image: url("../imgs/kiwanosTravel-icon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 35px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-copyright {
+	margin-left: 25px;
+}
+
+.footer-social {
+	margin-right: 25px;
+}
+
+.footer-social ul {
+	list-style-type: none;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.footer-social ul li {
+	float: left;
+	padding: 5px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.footer-social img {
+	height: 25px;
+	width: auto;
+	vertical-align: middle;
+}
