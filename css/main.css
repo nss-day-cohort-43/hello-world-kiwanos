@@ -13,9 +13,34 @@ main {
 	width: auto;
 	display: flex;
 	flex-direction: column-reverse;
+	padding: 4px;
 }
 
 .flex-container-for-main {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 170px;
+	width: auto;
+}
+
+.floating-country-name-container {
+	align-items: flex-start;
+	font-size: 69px;
+	text-shadow: 2px 2px 5px rgba(114, 171, 224, 0.90);
+	margin-left: 25px;
+}
+
+.country-name-bottom-main {
+	align-items: flex-end;
+	text-align: center;
+	/* background: center rgba(114, 171, 224, 0.35); */
+	margin: 4px;
+	/* border-radius: 2em; */
+}
+
+.bottom-name-highlight {
+	background: center rgba(114, 171, 224, 0.7);
+	border-radius: 2em;
+	padding: 2px;
 }
