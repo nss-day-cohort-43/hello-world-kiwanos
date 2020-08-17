@@ -14,6 +14,7 @@ main {
 	display: flex;
 	flex-direction: column-reverse;
 	padding: 4px;
+	color: white;
 }
 
 .flex-container-for-main {
@@ -26,8 +27,8 @@ main {
 
 .floating-country-name-container {
 	align-items: flex-start;
-	font-size: 69px;
-	text-shadow: 2px 2px 5px rgba(114, 171, 224, 0.90);
+	font-size: 75px;
+	text-shadow: 2px 2px 10px black;
 	margin-left: 25px;
 }
 
@@ -35,12 +36,12 @@ main {
 	align-items: flex-end;
 	text-align: center;
 	/* background: center rgba(114, 171, 224, 0.35); */
-	margin: 4px;
+	margin: 4px 4px 25px 4px;
 	/* border-radius: 2em; */
 }
 
 .bottom-name-highlight {
-	background: center rgba(114, 171, 224, 0.7);
+	background: center rgba(114, 171, 224, .75);
 	border-radius: 2em;
-	padding: 2px;
+	padding: 10px;
 }
