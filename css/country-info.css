@@ -4,6 +4,11 @@
     background-color: rgb(114, 171, 224);
 }
 
+#country-info h2 {
+    color: white;
+    margin: 10px;
+}
+
 
 .country-info-section {
     display: flex;
@@ -14,6 +19,7 @@
 
 .country-info-section > h2{
     text-align: center;
+    font-size: 1em;
 }
 
 .cis-item{
@@ -43,8 +49,20 @@
     height: 100%;
     text-align: center;
     font-size: 2vmax;
+    color: white;
 }
 
 .item-info > p {
     padding: 0em 2em;
+}
+
+.item-info a {
+    color: white;
+    background-color: rgba(0, 0, 0, .15);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.item-info a:hover {
+    background-color: rgba(0, 0, 0, .3);
 }
