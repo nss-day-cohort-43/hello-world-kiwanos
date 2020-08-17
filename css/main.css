@@ -15,7 +15,7 @@ main {
 	flex-direction: column-reverse;
 	padding: 4px;
 }
-
+/* This is the main flex container for the main element in the index.html */
 .flex-container-for-main {
 	display: flex;
 	flex-direction: column;
@@ -23,14 +23,14 @@ main {
 	height: 170px;
 	width: auto;
 }
-
+/* This styles the main text (country name) that floats over the image within main */
 .floating-country-name-container {
 	align-items: flex-start;
 	font-size: 69px;
 	text-shadow: 2px 2px 5px rgba(114, 171, 224, 0.90);
 	margin-left: 25px;
 }
-
+/* This styles the location of the bottom text that list the country and location of the photo */
 .country-name-bottom-main {
 	align-items: flex-end;
 	text-align: center;
@@ -38,7 +38,7 @@ main {
 	margin: 4px;
 	/* border-radius: 2em; */
 }
-
+/* This adds the highlight effect of the text at the bottom of the main image. */
 .bottom-name-highlight {
 	background: center rgba(114, 171, 224, 0.7);
 	border-radius: 2em;
