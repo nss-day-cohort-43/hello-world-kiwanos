@@ -12,14 +12,19 @@
     font-size: 5vmax;
 }
 
+.country-info-section > h2{
+    text-align: center;
+}
+
 .cis-item{
     background-color: #69e5ae; 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 1em 0em;
+    margin: 2px 0px;
     
 }
+
 
 .item-img-container {
     width: 50%;
@@ -33,9 +38,13 @@
     align-self: center;
 }
 
-.item-name{
+.item-info{
     width: 50%;
     height: 100%;
     text-align: center;
-    font-size: 6vmax;
+    font-size: 2vmax;
+}
+
+.item-info > p {
+    padding: 0em 2em;
 }
