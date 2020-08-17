@@ -1,9 +1,14 @@
-@import "header.css";
+@import "header-usa.css";
 
-@import "footer.css";
+@import "footer-usa.css";
 
-@import 'country-info.css';
+@import 'country-info-usa.css';
 
+/* These are the colors for the USA theme */
+/* #3C3B6E - USA Flag Blue - #FFFFFF USA Flag White - #B22234 USA Flag Red */
+body {
+	color: #ffffff;
+}
 main {
 	background-image: url('../imgs/yosemite-wideshot-background-image.jpg');
 	background-size: cover;
@@ -27,7 +32,7 @@ main {
 .floating-country-name-container {
 	align-items: flex-start;
 	font-size: 69px;
-	text-shadow: 2px 2px 5px rgba(114, 171, 224, 0.90);
+	text-shadow: 2px 2px 5px rgba(178, 34, 52, 1.0);
 	margin-left: 25px;
 }
 
@@ -40,7 +45,7 @@ main {
 }
 
 .bottom-name-highlight {
-	background: center rgba(114, 171, 224, 0.7);
+	background: center rgba(60, 59, 110, .85);
 	border-radius: 2em;
 	padding: 2px;
 }

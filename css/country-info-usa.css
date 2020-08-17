@@ -1,0 +1,48 @@
+#country-info {
+	display: flex;
+	flex-flow: column;
+	background-color: #ffffff;
+	color: #3c3b6e;
+}
+
+.country-info-section {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-size: 5vmax;
+}
+
+.country-info-section > h2 {
+	text-align: center;
+}
+
+.cis-item {
+	background-color: #3c3b6e;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 2px 0px;
+	color: #ffffff;
+}
+
+.item-img-container {
+	width: 50%;
+	display: flex;
+}
+
+.item-img {
+	width: 100%;
+	height: auto;
+	align-self: center;
+}
+
+.item-info {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	font-size: 2vmax;
+}
+
+.item-info > p {
+	padding: 0em 2em;
+}
