@@ -1,8 +1,8 @@
-@import "header.css";
+@import "China-header.css";
 
-@import "footer.css";
+@import "China-footer.css";
 
-@import 'country-info.css';
+@import 'China-country-info.css';
 
 main {
 	background-image: url('../../imgs/yosemite-wideshot-background-image.jpg');
@@ -27,7 +27,8 @@ main {
 .floating-country-name-container {
 	align-items: flex-start;
 	font-size: 69px;
-	text-shadow: 2px 2px 5px rgba(114, 171, 224, 0.90);
+	color: white;
+	text-shadow: 2px 2px 5px rgba(236, 8, 19, 0.9);
 	margin-left: 25px;
 }
 
@@ -40,7 +41,7 @@ main {
 }
 
 .bottom-name-highlight {
-	background: center rgba(114, 171, 224, 0.7);
+	background: center rgba(236, 8, 19, 0.7);
 	border-radius: 2em;
 	padding: 2px;
 }
