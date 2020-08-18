@@ -48,7 +48,7 @@ main {
 
 .country-name-bottom-main {
 	align-items: flex-end;
-	text-align: right;
+    text-align: right;
 	margin: 4px 15px 25px 4px;
 }
 
