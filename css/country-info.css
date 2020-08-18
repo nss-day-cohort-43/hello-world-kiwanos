@@ -85,6 +85,7 @@
 
 .item-info a {
     color: white;
+    font-family: 'Raleway', sans-serif;
     background-color: rgba(0, 0, 0, .15);
     text-decoration: none;
     padding: 10px;
