@@ -1,7 +1,3 @@
-a {
-	color: #b22234;
-}
-
 #country-info {
 	display: flex;
 	flex-flow: column;
@@ -18,6 +14,9 @@ a {
 
 .country-info-section > h2 {
 	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	font-size: 1em;
 }
 
 .cis-item {
@@ -49,4 +48,15 @@ a {
 
 .item-info > p {
 	padding: 0em 2em;
+}
+
+.item-info a {
+	color: #b22234;
+	/* background-color: rgba(0, 0, 0, .15); */
+	/* text-decoration: none; */
+	/* padding: 10px; */
+}
+
+.item-info a:hover {
+	background-color: rgba(0, 0, 0, .3);
 }
