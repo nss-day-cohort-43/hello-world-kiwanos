@@ -73,7 +73,8 @@ main {
     background-color: rgba(114, 171, 224, .75);
 }
 
-#bottom-about h3 {position: relative;
+#bottom-about h3 {
+    position: relative;
     margin: 0;
     padding: 40px 40px 10px 40px;
     font-size: 25px;
