@@ -53,3 +53,39 @@ main {
 	border-radius: 2em;
 	padding: 10px;
 }
+
+#bottom-about {
+    position: relative;
+    color: white;
+    background-image: url('../imgs/clouds.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bottom-about::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(114, 171, 224, .75);
+}
+
+#bottom-about h3 {position: relative;
+    margin: 0;
+    padding: 40px 40px 10px 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#bottom-about p {
+    position: relative;
+    margin: 0;
+    padding: 10px 40px 40px 40px;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: justify;
+}
