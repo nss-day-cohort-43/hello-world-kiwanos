@@ -31,7 +31,7 @@ main {
 }
 
 .floating-country-name-container {
-	align-items: flex-start;
+    align-items: flex-start;
 	font-size: 69px;
 	text-shadow: 2px 2px 5px rgba(178, 34, 52, 1.0);
 	font-size: 75px;

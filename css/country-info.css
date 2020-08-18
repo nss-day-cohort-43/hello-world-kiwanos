@@ -49,13 +49,27 @@
 .item-info{
     width: 50%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 2vmax;
     color: white;
+    margin: 25px 0;
+}
+
+.item-info h3 {
+    padding: 0 40px;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .item-info > p {
-    padding: 0em 2em;
+    padding: 0 40px;
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.learn-more {
+    margin-top: 40px;
 }
 
 .item-info a {
